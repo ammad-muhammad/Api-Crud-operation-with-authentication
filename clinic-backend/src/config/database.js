@@ -4,7 +4,7 @@ const uri = 'mongodb+srv://officialmuhammadammad:y0hKZnUmH8SefjPf@clustrer0.9whi
 
 async function connectDB(){
     await mongoose.connect(uri);
-    // console.log('Database connected successfully');
+    console.log('Database connected successfully');
 }
 
 
